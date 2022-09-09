@@ -3,9 +3,9 @@
  * main -entry point
  * return: always 0 (success)
  */
-int main(int)
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	/* the return ends the main program */
-	return (0);
+	return ();
 }
