@@ -1,8 +1,8 @@
-#include <stdio.h>
-
+#include<stdio.h>
+/*this is a comment*/
 int main(void)
 {
-
-           puts("\"Programming is like building a multilingual puzzle");
+	/* this is a main function */
+puts("\"Programming is like building a multilingual puzzle");
 	   return (0);
 }
