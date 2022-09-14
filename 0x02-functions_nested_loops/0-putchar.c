@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main: the main function prints _putchar.
- * Return: returns 0 : Success.
+ * main: the main function will print _putchar.
+ * Return: return (0) ; success.
  */
 int main(void)
 {
@@ -14,6 +14,7 @@ int main(void)
 	putchar ('h');
 	putchar ('a');
 	putchar ('r');
+	putchar ('\n');
 
 	return (0);
 }
