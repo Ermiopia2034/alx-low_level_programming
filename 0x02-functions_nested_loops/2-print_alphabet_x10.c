@@ -8,14 +8,12 @@ void print_alphabet_x10(void)
 {
 	char alpha;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (int i = 0; i < 10; i++)
 	{
-		int i = 0;
-
-		for (i < 10; i++)
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
 			putchar(alpha);
+			putchar('\n');
 		}
 	}
-	putchar('\n');
 }
