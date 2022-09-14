@@ -6,3 +6,5 @@ void print_alphabet(void);
 int main(void);
 int _islower(int c);
 int _putchar(char c);
+
+#endif /* MAIN_H */
