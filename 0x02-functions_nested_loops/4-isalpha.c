@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _isalpha - checks if its a letter or not
  * @c: letter being tested
@@ -6,7 +7,9 @@
  */
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	int r = isalpha(c);
+
+	if (c)
 		return (1);
 	else
 		return (0);
