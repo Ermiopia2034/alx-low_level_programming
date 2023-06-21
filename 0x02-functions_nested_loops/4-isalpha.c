@@ -9,7 +9,7 @@ int _isalpha(int c)
 {
 	int r = isalpha(c);
 
-	if (c)
+	if (r)
 		return (1);
 	else
 		return (0);
